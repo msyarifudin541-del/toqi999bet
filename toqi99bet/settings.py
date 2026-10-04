@@ -20,7 +20,8 @@ DEBUG = not PRODUCTION
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "muhammad-syarifudin51-toqi99bet.pbp.cs.ui.ac.id",
+    "muhammad-syarifudin51-toqi999bet.pbp.cs.ui.ac.id",
+    "*.pbp.cs.ui.ac.id",
 ]
 
 # Application definition
