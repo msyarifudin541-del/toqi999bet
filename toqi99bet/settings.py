@@ -16,9 +16,11 @@ DEBUG = not PRODUCTION
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
+    "muhammad-syarifudin51-toqi999bet.pws.cs.ui.ac.id",
     "muhammad-syarifudin51-toqi999bet.pbp.cs.ui.ac.id",
-    "*.pbp.cs.ui.ac.id",
     "*.pws.cs.ui.ac.id",
+    "*.pbp.cs.ui.ac.id",
+    "*",  # Tanda bintang ini memastikan semua request host diterima tanpa error 400
 ]
 
 CSRF_TRUSTED_ORIGINS = [
